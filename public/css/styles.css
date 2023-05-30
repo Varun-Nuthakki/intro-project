@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.title {
+    color: rgb(122, 9, 122);
+}
+
+.bg_i {
+    background-color: silver;
+    font-weight: bold;
+}
+
+.clearbtn_i {
+    margin-left: 48%;
+}
+
+.header {
+   display: grid;
+   justify-items: center;
+}
+
+.update_i {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.place-center_i {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.update-buttons_i {
+    justify-self: center;
+}
+
+.add-btn_a {
+    margin-left: calc(40%);
+}
+
+.show_title {
+    display: grid;
+    justify-items: center;
+}
+
